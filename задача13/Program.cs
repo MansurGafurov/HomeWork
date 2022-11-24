@@ -13,5 +13,5 @@ if(Number <= 99)
 }
 else
 {
-     //int Number3 = Number % 10;   
+    int Number3 = Number % 10;   
 }
