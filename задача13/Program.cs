@@ -13,6 +13,5 @@ if(Number <= 99)
 }
 else
 {
-    int Number3 = Number % 10;
-    Console.WriteLine(Number3);
+     //int Number3 = Number % 10;   
 }
