@@ -5,13 +5,20 @@
 //32679 -> 6
 
 Console.WriteLine("Введите любое цело число");
-int Number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(Number);
-if(Number <= 99)
+string n = Console.ReadLine();
+int i = 0;
+if (Convert.ToInt32(n) <= 99)
 {
-    Console.WriteLine("Третьей цифры нет!");
+    Console.WriteLine("Третьей цифры нет");
 }
 else
 {
-    int Number3 = Number % 10;   
+     char[] array = new char[n.Length];
+    
+        while(i < n.Length)
+        {
+            array[i] = n[i];
+            i ++;
+        }
+    Console.WriteLine("Третья цифра = " + array[2]);
 }
