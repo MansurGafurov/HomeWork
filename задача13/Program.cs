@@ -4,7 +4,7 @@
 //78 -> третьей цифры нет
 //32679 -> 6
 
-Console.WriteLine("Введите любое цело число");
+Console.WriteLine("Введите любое целое число");
 string n = Console.ReadLine();
 int i = 0;
 if (Convert.ToInt32(n) <= 99)
