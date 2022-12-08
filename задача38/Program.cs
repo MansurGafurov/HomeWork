@@ -10,7 +10,7 @@ for(int i = 0; i < Array.Length; i++) {
 
 int min = Array[0];
 int max = Array[0];
-foreach (int index  in Array)  // Поиск максимального и минимального значения
+foreach (int index  in Array)  
 {
     if (min > index) min = index;
     if (max < index) max = index;
