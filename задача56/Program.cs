@@ -23,7 +23,8 @@ void FillArray(int[,] array)
 }
 
 FillArray(array);
-// Console.WriteLine();
+
+
 
 List<int> SumStrings = new List<int>();
 
@@ -44,6 +45,8 @@ for (int i = 0; i < array.GetLength(0); i++)
 
 // ReturnList(SumStrings);
 //Console.WriteLine();
+
+
 
 int ReturnIndex(List<int> SumStrings)
 {
