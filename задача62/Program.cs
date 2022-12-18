@@ -33,7 +33,6 @@ void FillArray(int[,] Array)
 }
 
 
-
 void PrintArray(int[,] Array)
 {
     for (int x = 0; x < Array.GetLength(0); x++)
@@ -49,3 +48,39 @@ void PrintArray(int[,] Array)
 
 FillArray(Array);
 PrintArray(Array);
+
+
+
+
+
+
+
+
+
+
+
+// int[,] Array = new int[n, n];
+// int value = 1;
+// for (int i = 0; i < n / 2; i++)
+// {
+//     for (int j = i; j < n - i; j++) { Array[i, j] = value++; }
+//     for (int j = 0; j < Array.GetLength(1); j++)
+//     {
+//         if (Array[Array.GetLength(1) - 1, j] = 0)
+//         {
+
+//         }
+//     }
+// }
+
+
+
+// for (int x = 0; x < Array.GetLength(0); x++)
+// {
+//     for (int y = 0; y < Array.GetLength(1); y++)
+//     {
+
+//         Console.Write($" {Array[x, y]} \t ");
+//     }
+//     Console.WriteLine();
+// }
