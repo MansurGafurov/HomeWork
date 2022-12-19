@@ -13,11 +13,7 @@ if(m>n) {(m,n)=(n,m);}
 int Sum(int x, int y)
 {
     if(x>y) { return 0;}
-    
     int result  = Sum(x+1, y);
-        
-    
     return x + result;
 }
-
 Console.WriteLine(Sum(m,n));
