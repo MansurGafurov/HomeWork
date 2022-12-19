@@ -12,8 +12,6 @@ if(m>n) {(m,n)=(n,m);}
 
 int Sum(int x, int y)
 {
-    //int sum = x;
-    //Console.WriteLine($"{sum}, ");
     if(x>y) { return 0;}
     
     int result  = Sum(x+1, y);
